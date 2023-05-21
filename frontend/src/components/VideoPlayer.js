@@ -242,7 +242,7 @@ const VideoPlayerStyled = styled.div`
 
     .vjs-control-bar {
         display: flex;
-        justify-content: flex-start; /* Center icons horizontally */
+        justify-content: flex-start;
         align-items: center;
         background: #0b0b0b;
         height: 70px;

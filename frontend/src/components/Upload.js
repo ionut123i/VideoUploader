@@ -34,7 +34,8 @@ const handleUpload=async(e)=>{
     formData.append('description',e.target.description.value)
     formData.append('video',e.target.video.files[0])
   
-    const res=await fetch('http://localhost:8080/api/upload',{
+    // 'http://localhost:8080/api/upload'
+    const res=await fetch('https://videouploader.onrender.com/api/upload',{
       method:"POST",
       body:formData
     })
