@@ -1,4 +1,4 @@
-const VideoSchema = require('../models/VideoModel');
+const VideoSchema = require('../model/VideoModel');
 
 exports.addVideo =  async (req, res) => {
     const {title, description} = req.body;
